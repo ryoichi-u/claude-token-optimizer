@@ -1,5 +1,5 @@
 ---
-description: Detect patterns that inject excessive data into the context window
+description: "Detect excessive data injection into context / コンテキストへの過剰なデータ注入を検出"
 allowed-tools: Read, Glob, Grep, Bash(wc*)
 argument-hint: "[--all]"
 ---

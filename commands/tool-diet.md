@@ -1,5 +1,5 @@
 ---
-description: Detect unused or redundant tool definitions and estimate token savings
+description: "Detect unused/redundant tools and estimate savings / 未使用・冗長なツール定義を検出し削減量を試算"
 allowed-tools: Read, Glob, Grep, Bash(wc*), Bash(jq*)
 argument-hint: "[--dry-run]"
 ---

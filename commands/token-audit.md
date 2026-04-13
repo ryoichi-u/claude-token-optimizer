@@ -1,5 +1,5 @@
 ---
-description: Analyze token consumption of CLAUDE.md, commands, and agent definitions
+description: "Analyze token usage of CLAUDE.md, commands, and agents / CLAUDE.md・コマンド・エージェント定義のトークン消費を分析"
 allowed-tools: Read, Glob, Grep, Bash(wc*)
 argument-hint: "[<path> | --all]"
 ---
