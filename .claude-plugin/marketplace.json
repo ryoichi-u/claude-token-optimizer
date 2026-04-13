@@ -1,0 +1,24 @@
+{
+  "name": "ryoichi-u-plugins",
+  "owner": {
+    "name": "ryoichi-u",
+    "url": "https://github.com/ryoichi-u"
+  },
+  "plugins": [
+    {
+      "name": "claude-token-optimizer",
+      "source": {
+        "source": "github",
+        "repo": "ryoichi-u/claude-token-optimizer"
+      },
+      "description": "Slash commands to analyze and reduce Claude Code token consumption: audit usage, compress CLAUDE.md, slim commands, prune unused tools, and detect runtime injection risks.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ryoichi-u",
+        "url": "https://github.com/ryoichi-u"
+      },
+      "homepage": "https://github.com/ryoichi-u/claude-token-optimizer",
+      "license": "MIT"
+    }
+  ]
+}

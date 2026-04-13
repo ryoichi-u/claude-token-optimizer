@@ -6,6 +6,15 @@ Token usage in Claude Code comes from multiple sources: `CLAUDE.md` context file
 
 ## Quick Start
 
+The fastest way is the Claude Code plugin marketplace:
+
+```
+/plugin marketplace add ryoichi-u/claude-token-optimizer
+/plugin install claude-token-optimizer@claude-token-optimizer
+```
+
+Or via the install script (see [Installation](#installation) for all options):
+
 ```bash
 git clone https://github.com/ryoichi-u/claude-token-optimizer.git
 cd claude-token-optimizer
@@ -74,6 +83,17 @@ Scans commands and CLAUDE.md for patterns that can cause excessive runtime token
 ```
 
 ## Installation
+
+### Option 0: Claude Code Plugin (Recommended)
+
+Install via the [Claude Code plugin system](https://docs.anthropic.com/en/docs/claude-code/plugins) — no cloning, no copying, and updates with one command:
+
+```
+/plugin marketplace add ryoichi-u/claude-token-optimizer
+/plugin install claude-token-optimizer@claude-token-optimizer
+```
+
+All 5 commands become available immediately. Update later with `/plugin update`.
 
 ### Option 1: Install Script
 

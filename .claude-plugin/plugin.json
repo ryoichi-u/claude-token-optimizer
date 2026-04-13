@@ -1,0 +1,11 @@
+{
+  "name": "claude-token-optimizer",
+  "version": "0.1.0",
+  "description": "Slash commands to analyze and reduce Claude Code token consumption: audit usage, compress CLAUDE.md, slim commands, prune unused tools, and detect runtime injection risks.",
+  "author": {
+    "name": "ryoichi-u",
+    "url": "https://github.com/ryoichi-u"
+  },
+  "homepage": "https://github.com/ryoichi-u/claude-token-optimizer",
+  "license": "MIT"
+}
