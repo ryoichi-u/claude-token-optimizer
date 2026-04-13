@@ -1,5 +1,5 @@
 ---
-description: Compress CLAUDE.md context while preserving quality (learning-based)
+description: "Compress CLAUDE.md while preserving quality (learning-based) / CLAUDE.md を品質を保ちつつ圧縮 (学習ベース)"
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash(wc*), Bash(date*), Bash(ls*)
 argument-hint: "[<subdir> | --all] [--dry-run] [--lang en|ja|auto]"
 ---

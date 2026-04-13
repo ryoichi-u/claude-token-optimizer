@@ -1,5 +1,5 @@
 ---
-description: Compress slash command definition files to reduce per-invocation token cost
+description: "Compress slash command files to cut per-invocation tokens / スラッシュコマンド定義を圧縮し呼び出し毎のトークンを削減"
 allowed-tools: Read, Write, Edit, Glob, Bash(wc*)
 argument-hint: "[<command-name> | --all] [--dry-run]"
 ---
