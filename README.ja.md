@@ -6,6 +6,15 @@ Claude Code のトークン消費は、`CLAUDE.md`、スラッシュコマンド
 
 ## クイックスタート
 
+最短はClaude Codeのプラグインマーケットプレイス経由:
+
+```
+/plugin marketplace add ryoichi-u/claude-token-optimizer
+/plugin install claude-token-optimizer@claude-token-optimizer
+```
+
+または従来通りインストールスクリプトでも可能（全選択肢は[インストール](#インストール)参照）:
+
 ```bash
 git clone https://github.com/ryoichi-u/claude-token-optimizer.git
 cd claude-token-optimizer
@@ -47,6 +56,17 @@ Claude Code で:
 コマンドや CLAUDE.md 内の、実行時に大量トークンを消費するパターンを検出: 無制限のファイル読み込み、全件ループ、フィルタなしの生データ注入 等。
 
 ## インストール
+
+### 方法0: Claude Code プラグイン（推奨）
+
+[Claude Code プラグインシステム](https://docs.anthropic.com/en/docs/claude-code/plugins)経由でインストール。clone もコピーも不要、`/plugin update` でワンコマンド更新可能:
+
+```
+/plugin marketplace add ryoichi-u/claude-token-optimizer
+/plugin install claude-token-optimizer@claude-token-optimizer
+```
+
+5つのコマンドが即座に利用可能になります。
 
 ### 方法1: インストールスクリプト
 
