@@ -10,7 +10,7 @@ Claude Code のトークン消費は、`CLAUDE.md`、スラッシュコマンド
 
 ```
 /plugin marketplace add ryoichi-u/claude-token-optimizer
-/plugin install claude-token-optimizer@claude-token-optimizer
+/plugin install claude-token-optimizer@ryoichi-u-plugins
 ```
 
 または従来通りインストールスクリプトでも可能（全選択肢は[インストール](#インストール)参照）:
@@ -63,7 +63,7 @@ Claude Code で:
 
 ```
 /plugin marketplace add ryoichi-u/claude-token-optimizer
-/plugin install claude-token-optimizer@claude-token-optimizer
+/plugin install claude-token-optimizer@ryoichi-u-plugins
 ```
 
 5つのコマンドが即座に利用可能になります。
