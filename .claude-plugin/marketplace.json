@@ -12,7 +12,7 @@
         "repo": "ryoichi-u/claude-token-optimizer"
       },
       "description": "Slash commands to analyze and reduce Claude Code token consumption: audit usage, compress CLAUDE.md, slim commands, prune unused tools, and detect runtime injection risks. / Claude Code のトークン消費を分析・削減するスラッシュコマンド集: 使用量監査・CLAUDE.md圧縮・コマンド軽量化・未使用ツール削除・実行時注入リスク検出",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "ryoichi-u",
         "url": "https://github.com/ryoichi-u"
