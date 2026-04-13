@@ -10,7 +10,7 @@ The fastest way is the Claude Code plugin marketplace:
 
 ```
 /plugin marketplace add ryoichi-u/claude-token-optimizer
-/plugin install claude-token-optimizer@claude-token-optimizer
+/plugin install claude-token-optimizer@ryoichi-u-plugins
 ```
 
 Or via the install script (see [Installation](#installation) for all options):
@@ -90,7 +90,7 @@ Install via the [Claude Code plugin system](https://docs.anthropic.com/en/docs/c
 
 ```
 /plugin marketplace add ryoichi-u/claude-token-optimizer
-/plugin install claude-token-optimizer@claude-token-optimizer
+/plugin install claude-token-optimizer@ryoichi-u-plugins
 ```
 
 All 5 commands become available immediately. Update later with `/plugin update`.
